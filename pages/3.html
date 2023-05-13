@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles/style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Marcellus&family=Prompt:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+</head>
+<body>
+    <main>
+        <h1>BMR Calculator</h1>
+        <p id="text">Hi <span id="name"></span>,<br></p>
+
+        <p>The Basal Metabolic Rate (BMR) Calculator estimates your basal metabolic rate—the amount of energy expended while at rest in a neutrally temperate environment, 
+            and in an inactive state.</p>
+        <p>To calculate your BMR, we need the information about you below:</p>
+        <p>Gender(male/female): <input id="gd" type="text"/></p>
+        <p>Age: <input id="ag" type="text"/></p>
+        <p>Height(cm): <input id="ht" type="text"/></p>
+        <p>Weight(kg): <input id="wt" type="text"/></p>
+        <button id="calBtn">Calculate!</button>
+        <p id="rst">Your BMR is: <span id="result"></span> calories(kcal)/day</p>
+        <p>*This result is only an estimation based on the data you provided. 
+            Other factors include muscle mass, genetics, weather, diet, and supplements will also
+            impact the actual data.
+        </p>
+     <div></div>
+        <a class="rt" href="../pages/2.html">Back</a>
+        <a class="hs" href="../pages/4.html">Health Score Test</a>
+    </main>
+    <script src="../scripts/3.js"></script>
+</body>
+
+</html>

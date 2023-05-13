@@ -1,0 +1,35 @@
+body{
+    background:lightpink;
+    color:navy;
+    font-size:1.4vw;
+    margin:3%;
+    font-family:'Prompt' ;
+
+}
+button{
+    font-family:'Prompt';
+    font-size:1.6vw;
+    padding:1%;
+    border-radius:3vw;
+    border:none;
+    background:silver;
+    margin-top:1%;
+    margin-left:5%;
+}
+button:hover{
+    background:black;
+    color:white;
+}
+input{
+    border:none;
+}
+a{
+    font-size: 1.8vw;
+    
+}
+p{
+    margin-bottom:5;
+}
+.rt{
+    margin:2%;
+}

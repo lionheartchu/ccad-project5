@@ -1,0 +1,30 @@
+body{
+    font-family: 'Prompt';
+    background:rosybrown;
+    text-align: center;
+    margin:2%;
+    color:white;
+}
+h1{
+    font-size:3.4vw;
+    margin-bottom: 4%;
+}
+.yn{
+    font-size:2vw;
+    margin-bottom:5%;
+}
+a{
+    font-size:1.8vw;
+    margin:5%;
+}
+.cal:hover{
+    color:white;
+    transition-duration: .5s;
+}
+.hs:hover{
+    color:white;
+    transition-duration: .5s;
+}
+a:visited{
+    color:navy;
+}

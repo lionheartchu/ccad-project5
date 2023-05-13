@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles/habit2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caudex&family=Marcellus&family=Prompt:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+</head>
+<body>
+    <main>
+        <h1>Habit Quiz</h1>
+        <h3>5. Do you have strong emotional swings?</h3>
+        <input type="radio" name="q5" value="1">Always
+        <input type="radio" name="q5" value="2">Normal
+        <input type="radio" name="q5" value="3">Never
+        <h3>6. Are you easy to get tired at work/study?</h3>
+        <input type="radio" name="q6" value="3">Always
+        <input type="radio" name="q6" value="2">Normal
+        <input type="radio" name="q6" value="1">Never
+        <h3>7. Do you take health examination termly?</h3>
+        <input type="radio" name="q7" value="3">Always
+        <input type="radio" name="q7" value="2">Normal
+        <input type="radio" name="q7" value="1">Never
+        <div></div>
+       <button onclick="calculateResult()">Get result!</button>
+       <div class="scoreText">
+        <span id="name"></span>, your score is: <span id="rst"></span>
+        </div>
+        <div id="explain"></div>
+        <a class="rt" href="../pages/habit.html">Back</a>
+    </main>
+    <script src="../scripts/habit2.js"></script>
+</body>
+
+</html>

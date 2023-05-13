@@ -1,0 +1,35 @@
+body{
+    background:lemonchiffon;
+    color:slategray;
+    font-size:1.45vw;
+    margin:1%;
+    font-family:'Prompt' ;
+
+}
+main{
+    border-style: dashed;
+    border-color: silver;
+    border-width: 0.5vw;
+    padding:2.5%;
+}
+button{
+    font-family:'Prompt';
+    font-size:1.6vw;
+    padding:1%;
+    border-radius:3vw;
+    border:none;
+    background:silver;
+    margin-top:1%;
+    margin-left:5%;
+}
+button:hover{
+    background:black;
+    color:white;
+}
+input{
+    border:none;
+}
+a{
+    margin:5%;
+
+}

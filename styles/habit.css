@@ -1,0 +1,42 @@
+body{
+    background:skyblue;
+    color:mintcream;
+}
+main{
+    margin:3.5%;
+    font-family: 'Prompt';
+    font-size:1.4vw;
+}
+input[name="q4"]{
+    margin-bottom:3%;
+}
+input{
+    margin-left:2%;
+}
+button{
+    background:royalblue;
+    color:white;
+    border-radius: 3vw;
+    border:none;
+    font-family: 'Prompt';
+    font-size:1.4vw;
+    padding:0.8%;
+    margin-left:6%;
+    margin-top:2%;
+    margin-bottom:3%;
+    margin-right:10%;
+}
+button:hover{
+    background:lightcyan;
+    color:grey;
+}
+.h2{
+    font-size: 1.8vw;
+}
+.h2:hover{
+    color:white;
+    transition-duration: 0.5s;
+}
+a:visited{
+    color:royalblue;
+}
